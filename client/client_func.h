@@ -19,7 +19,7 @@ typedef struct {
     short file_type;
     bool get_from_server;
 	time_t create_timestamp;
-	int crc32;
+	int crc32;//
 	int source_id;   //source storage id
 	int64_t file_size;
 	char source_ip_addr[IP_ADDRESS_SIZE];  //source storage ip address
